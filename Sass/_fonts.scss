@@ -4,6 +4,12 @@
   font-weight: 700;
   line-height: 84px;
 }
+@mixin smallH1Font {
+  font-family: "Quicksand", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
 
 @mixin h2Font {
   font-family: "Quicksand", sans-serif;

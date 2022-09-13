@@ -1,0 +1,11 @@
+@use "../colors" as *;
+@use "../fonts" as *;
+
+.shopWithUs {
+  @include btnText;
+  color: $pryColor;
+  background-color: $secondaryBtnColor2;
+}
+.btn {
+  border: none;
+}
