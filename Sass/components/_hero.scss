@@ -17,7 +17,8 @@
 }
 
 .hero {
-  background-image: url(../../assets/Images/heroImage.png);
+  //   background-image: url(../../assets/Images/heroImage.png);
+  background: $pryColor;
   background-size: 100%;
   overflow-x: hidden;
 }
