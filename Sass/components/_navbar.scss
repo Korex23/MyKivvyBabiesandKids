@@ -1,0 +1,42 @@
+@use "../colors" as *;
+@use "../fonts" as *;
+
+.nav-link {
+  @include navBarFonts;
+  margin-right: 20px;
+}
+
+.navbar {
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+.navbar-nav {
+  margin-left: 50px;
+}
+.nav-icon {
+  margin-left: 20px;
+}
+
+.nav-logo {
+  width: 160px;
+  height: 60px;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-link {
+    text-align: center;
+    margin-right: 0%;
+  }
+  .navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .navbar-nav {
+    margin-left: 0;
+  }
+
+  .nav-icon {
+    margin-left: 0%;
+  }
+}

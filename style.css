@@ -1,0 +1,144 @@
+.card {
+  border: 2px solid white !important;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  text-align: center;
+  margin-left: 20px;
+  border-radius: 10px !important;
+}
+
+.card img {
+  width: 241px;
+  height: 360px;
+  border-radius: 10px !important;
+  position: relative;
+}
+
+.card button {
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #2f88ff;
+  background-color: #2f88ff;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.card span {
+  margin-bottom: 5px;
+  padding-left: 10px;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.end {
+  margin-top: 10px;
+}
+
+.cartWishlist {
+  display: none;
+}
+
+.card:hover .cartWishlist {
+  display: block;
+  position: absolute;
+  transform: translate(30px, 300px);
+}
+
+.card:hover .heart-icon {
+  cursor: pointer;
+}
+
+.allCards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.maleCategoriesCard {
+  border: 1px solid #e5f3f6;
+  background-color: #e5f3f6;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+
+.maleCategoriesCard div {
+  text-align: center;
+}
+
+.maleCategoriesCard img {
+  width: 150px;
+  height: 280px;
+}
+
+.maleCategoriesCard p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px !important;
+}
+
+.femaleCategoriesCard {
+  border: 1px solid #eeb1b6;
+  background-color: #eeb1b6;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+
+.femaleCategoriesCard img {
+  width: 150px;
+  height: 280px;
+}
+
+.femaleCategoriesCard p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px !important;
+}
+
+.femaleCategoriesCard div {
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  .allCards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .categories {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .allCards {
+    flex-wrap: wrap;
+  }
+}

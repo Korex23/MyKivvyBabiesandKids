@@ -31,6 +31,12 @@
   font-weight: 700;
   line-height: 44px;
 }
+@mixin navBarFonts {
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 44px;
+}
 
 @mixin btnText {
   font-family: "Quicksand", sans-serif;

@@ -17,8 +17,9 @@
 }
 
 .hero {
-  //   background-image: url(../../assets/Images/heroImage.png);
-  background: $pryColor;
+  background-image: url(../../assets/Images/heroImage.png);
+  // background: $pryColor;
+  background-repeat: no-repeat;
 }
 .heroimage {
   margin-top: 80px;

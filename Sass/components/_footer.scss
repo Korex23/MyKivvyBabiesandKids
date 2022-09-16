@@ -1,0 +1,25 @@
+@use "../colors" as *;
+@use "../fonts" as *;
+
+footer {
+  background-color: $pryColor;
+  margin-top: 100px;
+  color: #000;
+  padding: 30px;
+  //   height: 250px;
+}
+
+.footerImg {
+  width: 252px;
+  height: 84px;
+  transform: translateX(-20px);
+}
+
+footer ul li a:link {
+  color: #000;
+  text-decoration: none;
+  @include footerText;
+}
+
+.address {
+}
