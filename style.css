@@ -64,6 +64,8 @@
   justify-content: space-around;
 }
 
+.heart-icon:hover {
+}
 .maleCategoriesCard {
   border: 1px solid #e5f3f6;
   background-color: #e5f3f6;
