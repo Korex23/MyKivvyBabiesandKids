@@ -1,2 +1,95 @@
 @use "../colors" as *;
 @use "../fonts" as *;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  text-align: center;
+  margin-left: 20px;
+  border-radius: 10px !important;
+  background-color: $pryColor !important;
+  border: none !important;
+}
+
+.card img {
+  width: 241px;
+  height: 360px;
+  border-radius: 10px !important;
+  position: relative;
+}
+
+.card span {
+  margin-bottom: 5px;
+  padding-left: 10px;
+  text-align: left;
+  @include productsNameText;
+}
+.end {
+  margin-top: 10px;
+}
+.swiper {
+  width: 100%;
+  background-color: #e5f3f6;
+  margin: auto;
+  padding: 40px !important;
+  margin-top: 100px;
+  //   padding-bottom: 30px !important;
+  h2 {
+    @include h2Font;
+  }
+}
+
+.swiper-slide {
+  margin: auto;
+}
+.nav-btn {
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 50%;
+  transform: translate(-10px, 30px);
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+.nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.nav-btn::after,
+.nav-btn::before {
+  font-size: 20px !important;
+  color: #fff;
+}
+.swiper-pagination {
+  transform: translateY(30px);
+  display: none !important;
+}
+.swiper-pagination-bullet {
+  background-color: rgba(163, 18, 18, 0.8);
+}
+.swiper-pagination-bullet-active {
+  background-color: #4070f4;
+}
+
+@media screen and (max-width: 992px) and (min-width: 541px) {
+  .swiper-slide {
+    transform: translateX(30px);
+  }
+}
+@media screen and (max-width: 540px) {
+  .swiper-slide {
+    margin-left: 1.5%;
+  }
+  .nav-btn {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .swiper-slide {
+    transform: translateX(60px);
+  }
+  .nav-btn {
+    margin: 20px;
+    transform: translateY(-40px);
+  }
+}
