@@ -196,6 +196,16 @@ footer ul li a:link {
   margin-top: 80px;
 }
 
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.heroimage1 {
+  width: 375px;
+  height: 431px;
+}
+
 @media screen and (max-width: 992px) {
   .heroText {
     display: block;
