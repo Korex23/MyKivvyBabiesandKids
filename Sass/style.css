@@ -145,6 +145,91 @@
     transform: translateY(-40px);
   }
 }
+.maleCategoriesCard {
+  border: 1px solid #e5f3f6;
+  background-color: #e5f3f6;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+
+.maleCategoriesCard div {
+  text-align: center;
+}
+
+.maleCategoriesCard img {
+  width: 150px;
+  height: 280px;
+}
+
+.maleCategoriesCard p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px !important;
+}
+
+.femaleCategoriesCard {
+  border: 1px solid #eeb1b6;
+  background-color: #eeb1b6;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+
+.femaleCategoriesCard img {
+  width: 150px;
+  height: 280px;
+}
+
+.femaleCategoriesCard p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px !important;
+}
+
+.femaleCategoriesCard div {
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .allCards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .categories {
+    flex-direction: column;
+    align-items: center;
+  }
+  .swiper h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .allCards {
+    flex-wrap: wrap;
+  }
+}
 footer {
   background-color: #e5f3f6;
   margin-top: 100px;
@@ -159,12 +244,20 @@ footer {
 }
 
 footer ul li a:link {
-  color: #000;
+  color: #000 !important;
   text-decoration: none;
   font-family: "Nunito", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 27px;
+}
+
+footer ul li a:active {
+  color: #000 !important;
+}
+
+footer ul li a:visited {
+  color: #000 !important;
 }
 
 .heroText {
@@ -230,6 +323,15 @@ footer ul li a:link {
     margin-top: 0px;
     display: flex;
     justify-content: center;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1290px) {
+  .heroimage1 {
+    transform: translate(130px, -500px);
+    padding-left: 20px;
+  }
+  .hero {
+    margin-bottom: -250px;
   }
 }
 .nav-link {

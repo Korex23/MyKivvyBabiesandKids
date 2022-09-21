@@ -60,3 +60,13 @@
     justify-content: center;
   }
 }
+@media screen and (min-width: 1000px) and (max-width: 1290px) {
+  .heroimage1 {
+    transform: translate(130px, -500px);
+    padding-left: 20px;
+  }
+
+  .hero {
+    margin-bottom: -250px;
+  }
+}

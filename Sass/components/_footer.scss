@@ -16,7 +16,15 @@ footer {
 }
 
 footer ul li a:link {
-  color: #000;
+  color: #000 !important;
   text-decoration: none;
   @include footerText;
+}
+
+footer ul li a:active {
+  color: #000 !important;
+}
+
+footer ul li a:visited {
+  color: #000 !important;
 }
