@@ -157,6 +157,18 @@
   justify-content: space-around;
   margin-top: 100px;
 }
+
+.whyChooseUs {
+  padding: 50px;
+  background-color: $pryColor;
+  margin-top: 100px;
+}
+.whyChooseUs1 {
+  padding: 50px;
+  background-color: $pryColor;
+  margin-top: 100px;
+  display: none;
+}
 @media screen and (max-width: 768px) {
   .allCards {
     flex-direction: column;
@@ -168,6 +180,13 @@
   }
   .swiper h2 {
     @include smallH2Font;
+  }
+
+  .whyChooseUs {
+    display: none;
+  }
+  .whyChooseUs1 {
+    display: block;
   }
 }
 
