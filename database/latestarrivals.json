@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Evening Gown For Girls",
+        "price": 8000,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../assets/Images/cloth.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Two Piece Cloths For Boys",
+        "price": 8000,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../assets/Images/cloth2.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Two Piece Picnic Dress For Girls",
+        "price": 8000,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../assets/Images/cloth3.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Name of Cloth for Girls",
+        "price": 8000,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../assets/Images/cloth4.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Name of Cloth for Girls",
+        "price": 8000,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../assets/Images/cloth5.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Name of Cloth for Both",
+        "price": 8000,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../assets/Images/cloth6.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Name of Cloth for Boys",
+        "price": 8000,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../assets/Images/cloth7.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Another of Cloth for Boys",
+        "price": 8000,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../assets/Images/cloth8.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "Another of Cloth for Girls",
+        "price": 8000,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../assets/Images/cloth9.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "Another of Cloth for Boys Again",
+        "price": 8000,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../assets/Images/cloth10.png"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -34,7 +34,7 @@
 .card:hover .cartWishlist {
   display: block;
   position: absolute;
-  transform: translate(30px, 300px);
+  transform: translate(20px, 300px);
 }
 
 .card:hover .heart-icon {
@@ -394,5 +394,8 @@ footer ul li a:visited {
   .nav-icon {
     margin-left: 0%;
   }
+}
+.img {
+  background-image: url(../assets/Images/cloth.png);
 }
 /*# sourceMappingURL=style.css.map */

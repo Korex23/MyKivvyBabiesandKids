@@ -30,7 +30,11 @@
 .card:hover .cartWishlist {
   display: block;
   position: absolute;
-  transform: translate(30px, 300px);
+  transform: translate(20px, 300px);
+  // background-color: $secondaryBtnColor2;
+  // width: 96.5%;
+  // padding-top: 5px;
+  // margin-bottom: 10px;
 }
 
 .card:hover .heart-icon {
