@@ -17,7 +17,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./Sass/style.css" />
-    <!-- <link rel="stylesheet" href="./style.css" /> -->
     <link
       rel="shortcut icon"
       href="./assets/Icons/favicon.ico"
@@ -58,64 +57,78 @@
               </li>
             </ul>
           </div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            preserveAspectRatio="xMidYMid meet"
-            viewBox="0 0 16 16"
-            class="nav-icon"
-          >
-            <g fill="#2f88ff">
-              <path
-                d="M10.058.501a.501.501 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.499.499 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.499.499 0 0 1-.497-.499Z"
-              />
-              <path
-                d="M3.605 2a.5.5 0 0 0-.5.5v12a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-12a.5.5 0 0 0-.5-.5h-.5a.5.5 0 0 1 0-1h.5a1.5 1.5 0 0 1 1.5 1.5v12a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5v-12a1.5 1.5 0 0 1 1.5-1.5h.5a.5.5 0 0 1 0 1h-.5Z"
-              />
-              <path
-                d="M8.068 6.482c1.656-1.673 5.795 1.254 0 5.018c-5.795-3.764-1.656-6.69 0-5.018Z"
-              />
-            </g>
-          </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="2em"
-            height="2em"
-            preserveAspectRatio="xMidYMid meet"
-            viewBox="0 0 24 24"
-            class="nav-icon"
-          >
-            <path
-              fill="#2f88ff"
-              d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z"
-            />
-            <circle cx="10.5" cy="19.5" r="1.5" fill="#2f88ff" />
-            <circle cx="17.5" cy="19.5" r="1.5" fill="#2f88ff" />
-          </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            preserveAspectRatio="xMidYMid meet"
-            viewBox="0 0 24 24"
-            class="nav-icon"
-          >
-            <g
-              fill="none"
-              stroke="#2f88ff"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="1.5"
+          <div class="navbar-brand navbar-barnd-icon">
+            <!-- Wishlist -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 16 16"
+              class="nav-icon"
             >
-              <path
-                d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10S17.523 2 12 2Z"
-              />
-              <path
-                d="M4.271 18.346S6.5 15.5 12 15.5s7.73 2.846 7.73 2.846M12 12a3 3 0 1 0 0-6a3 3 0 0 0 0 6Z"
-              />
-            </g>
-          </svg>
+              <g fill="#2f88ff">
+                <path
+                  d="M10.058.501a.501.501 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.499.499 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.499.499 0 0 1-.497-.499Z"
+                />
+                <path
+                  d="M3.605 2a.5.5 0 0 0-.5.5v12a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-12a.5.5 0 0 0-.5-.5h-.5a.5.5 0 0 1 0-1h.5a1.5 1.5 0 0 1 1.5 1.5v12a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5v-12a1.5 1.5 0 0 1 1.5-1.5h.5a.5.5 0 0 1 0 1h-.5Z"
+                />
+                <path
+                  d="M8.068 6.482c1.656-1.673 5.795 1.254 0 5.018c-5.795-3.764-1.656-6.69 0-5.018Z"
+                />
+              </g>
+            </svg>
+            <!-- Cart -->
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="2em"
+                height="2em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+                class="nav-icon"
+              >
+                <path
+                  fill="#2f88ff"
+                  d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z"
+                />
+                <circle cx="10.5" cy="19.5" r="1.5" fill="#2f88ff" />
+                <circle cx="17.5" cy="19.5" r="1.5" fill="#2f88ff" />
+              </svg>
+            </button>
+
+            <!-- profile -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+              class="nav-icon"
+            >
+              <g
+                fill="none"
+                stroke="#2f88ff"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10S17.523 2 12 2Z"
+                />
+                <path
+                  d="M4.271 18.346S6.5 15.5 12 15.5s7.73 2.846 7.73 2.846M12 12a3 3 0 1 0 0-6a3 3 0 0 0 0 6Z"
+                />
+              </g>
+            </svg>
+          </div>
           <button
             class="navbar-toggler"
             type="button"
@@ -128,8 +141,8 @@
             <span class=""
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="40"
-                height="40"
+                width="30"
+                height="30"
                 preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 16 16"
               >
@@ -167,6 +180,91 @@
       </div>
     </header>
     <!-- Hero and Navbar end -->
+    <!-- Cart Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLabel">Cart</h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body border">
+            <div class="row align-items-center g-2">
+              <div class="col-3">
+                <img
+                  src="./assets/Images/cloth.png"
+                  alt=""
+                  class="cart-image"
+                />
+              </div>
+              <div class="col-7 productname">
+                <p>Evening Gown For Girls and boys, homosexuals and all</p>
+                <p>NGN 8000</p>
+              </div>
+              <div
+                class="col-2 no-of-items d-flex align-items-center flex-column"
+              >
+                <svg
+                  width="20"
+                  height="14"
+                  viewBox="0 0 35 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M34.0792 23.8897C33.7892 24.2417 33.4447 24.5209 33.0655 24.7114C32.6863 24.9019 32.2798 25 31.8693 25C31.4588 25 31.0523 24.9019 30.6731 24.7114C30.2939 24.5209 29.9494 24.2417 29.6594 23.8897L17.4973 9.15902L5.33511 23.8897C4.74902 24.5996 3.9541 24.9984 3.12524 24.9984C2.29637 24.9984 1.50145 24.5996 0.915356 23.8897C0.329258 23.1798 0 22.217 0 21.2131C0 20.2092 0.329258 19.2464 0.915356 18.5365L15.3031 1.11028C15.5931 0.758326 15.9375 0.479097 16.3167 0.28858C16.6959 0.0980625 17.1024 0 17.5129 0C17.9235 0 18.33 0.0980625 18.7092 0.28858C19.0884 0.479097 19.4328 0.758326 19.7228 1.11028L34.1105 18.5365C35.3017 19.9792 35.3017 22.4091 34.0792 23.8897Z"
+                    fill="#27AAE1"
+                  />
+                </svg>
+                <p class="mt-3 number">1</p>
+                <svg
+                  width="20"
+                  height="14"
+                  viewBox="0 0 35 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.92082 1.11029C1.21081 0.75833 1.55527 0.479101 1.93447 0.288584C2.31367 0.0980662 2.72017 0 3.1307 0C3.54123 0 3.94773 0.0980662 4.32693 0.288584C4.70613 0.479101 5.05058 0.75833 5.34057 1.11029L17.5027 15.841L29.6649 1.11029C30.251 0.400412 31.0459 0.00160759 31.8748 0.00160759C32.7036 0.00160759 33.4986 0.400412 34.0846 1.11029C34.6707 1.82016 35 2.78296 35 3.78687C35 4.79078 34.6707 5.75358 34.0846 6.46345L19.6969 23.8897C19.4069 24.2417 19.0625 24.5209 18.6833 24.7114C18.3041 24.9019 17.8976 25 17.4871 25C17.0765 25 16.67 24.9019 16.2908 24.7114C15.9116 24.5209 15.5672 24.2417 15.2772 23.8897L0.889474 6.46345C-0.301665 5.02075 -0.301664 2.59095 0.92082 1.11029Z"
+                    fill="#27AAE1"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-end my-3 pe-4 total">
+              Total : <span> NGN 8000</span>
+            </div>
+          </div>
+          <p class="text-center add-more">
+            Want to add more
+            <a href="./pages/productspage.html">Continue Shopping</a>
+          </p>
+          <div
+            class="modal-footer mx-auto d-flex flex-column flex-md-row justify-content-center align-items-center"
+          >
+            <button type="button" class="btn cart-button red">
+              Clear Cart
+            </button>
+            <button type="button" class="btn cart-button blue">
+              Proceed to Checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Latest Arrivals Start -->
     <div class="swiper mySwiper">
       <h2 class="mb-4 text-center latest">Latest Arrivals</h2>
@@ -264,7 +362,7 @@
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-start">
             <ul class="list-unstyled mb-0">
               <li class="mb-2">
-                <a href="./pages/index.html" class="">Home</a>
+                <a href="./index.html" class="">Home</a>
               </li>
               <li class="mb-2">
                 <a href="./pages/aboutus.html" class="">About Us</a>

@@ -1,0 +1,57 @@
+import { DeliveryConfirmedPopUp } from
+"./components/ModalComponents/DeliveryConfirmedPopUp"; import { ThankYouPopUp }
+from "./components/ModalComponents/ThankYouPopup"; import {
+BuyerTransactionStartedPopUp, SellerTransactionStartedPopUp, } from
+"./components/ModalComponents/TransactionStartedPopup"; import {
+EscrowInitiationPopUp } from
+"./components/ModalComponents/EscrowInitiationPopUp"; import { GuestNavbar,
+UserDashboardNavbar, } from "./components/NavbarComponents/TopNavbars"; import {
+CompletedNotification, Refunded, Resolved, AwaitingDelivery, Unresolved,
+PendingConfirmation, PendingPayment, InDispute, } from
+"./components/NotificationComponent/NotificationComponents"; import {
+CreateTransactionButton, DeliverProductButton, ConfirmButton, IAgreeButton,
+ConfirmDeliveryButton, ProceedButton, NewTransactionButton, } from
+"./components/ButtonsComponent/TransactionButtons"; import { EditProfileButton,
+EditTicketButton, ResendProductButton, ContestComplaintButton, } from
+"./components/ButtonsComponent/EditButtons"; import { SignUpButton,
+SignInButton, GuestNavSignInButton, GoogleSignUpButton, GoogleSignInButton,
+SignUpIndividual, SignUpOrganization, GetStarted, } from
+"./components/ButtonsComponent/AuthenticationButtons"; function App() { return (
+<div>
+  <BuyerTransactionStartedPopUp />
+  <EscrowInitiationPopUp />
+  <SellerTransactionStartedPopUp />
+  <DeliveryConfirmedPopUp />
+  <ThankYouPopUp />
+  <GuestNavbar />
+  <UserDashboardNavbar />
+  <CompletedNotification />
+  <AwaitingDelivery />
+  <InDispute />
+  <PendingConfirmation />
+  <PendingPayment />
+  <Unresolved />
+  <Refunded />
+  <Resolved />
+  <CreateTransactionButton />
+  <DeliverProductButton />
+  <ConfirmButton />
+  <ConfirmDeliveryButton />
+  <IAgreeButton />
+  <ConfirmDeliveryButton />
+  <ProceedButton />
+  <NewTransactionButton />
+  <EditProfileButton />
+  <EditTicketButton />
+  <ResendProductButton />
+  <ContestComplaintButton />
+  <SignInButton />
+  <SignUpButton />
+  <GoogleSignUpButton />
+  <GoogleSignInButton />
+  <GuestNavSignInButton />
+  <SignUpIndividual />
+  <SignUpOrganization />
+  <GetStarted />
+</div>
+); } export default App;

@@ -4,7 +4,4 @@
 @use "./components/footer";
 @use "./components/hero";
 @use "./components/navbar";
-
-.img {
-  background-image: url(../assets/Images/cloth.png);
-}
+@use "./components/modals";

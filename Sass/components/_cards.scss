@@ -23,7 +23,7 @@
   margin-bottom: 5px;
   padding-left: 10px;
   text-align: left;
-  @include productsNameText;
+  @include footerText;
 }
 .end {
   margin-top: 10px;
@@ -193,5 +193,23 @@
 @media screen and (max-width: 1110px) {
   .allCards {
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 330px) {
+  .card {
+    width: 200px !important;
+    img {
+      width: 190px;
+      height: 250px;
+    }
+    span {
+      @include smallBtnText;
+    }
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 630px) {
+  .card {
+    padding: 0 20px !important;
   }
 }

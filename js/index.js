@@ -1,34 +1,3 @@
-// var swiper = new Swiper(".mySwiper", {
-//   slidesPerView: 3,
-//   spaceBetween: 10,
-//   slidesPerGroup: 1,
-//   loop: true,
-//   centerSlide: "true",
-//   fade: "true",
-//   gragCursor: "true",
-//   pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//   },
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-//   breakpoints: {
-//     0: {
-//       slidesPerView: 1,
-//       slidesPerGroup: 1,
-//     },
-//     520: {
-//       slidesPerView: 2,
-//       slidesPerGroup: 1,
-//     },
-//     900: {
-//       slidesPerView: 3,
-//     },
-//   },
-// });
-// import latestData from "../database/latestarrivals";
 const productsDOM = document.querySelector(".swiper-wrapper");
 
 class Products {
@@ -60,8 +29,10 @@ class UI {
        <div class="swiper-slide">
           <div class="card">
             <img src=${latestArrival.image} alt="" />
-            <span class="end">${latestArrival.title}</span>
-            <span class=""> NGN ${latestArrival.price}</span>
+            <p class='mt-2'>
+            <span class="end d-block">${latestArrival.title}</span>
+            <span class="d-block"> NGN ${latestArrival.price}</span>
+            </p>
             <div class="cartWishlist">
               <button data-id=${latestArrival.id}>Add to cart</button>
               <svg

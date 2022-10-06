@@ -23,6 +23,23 @@
   height: 60px;
 }
 
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-brand-icon {
+  top: 0 !important;
+  left: 0 !important;
+}
+
+@media screen and (max-width: 339px) {
+  .nav-icon {
+    width: 20px !important;
+    height: 20px !important;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .nav-link {
     text-align: center;

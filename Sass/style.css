@@ -41,6 +41,13 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 330px) {
+  .card:hover .cartWishlist {
+    display: block;
+    position: absolute;
+    transform: translate(-5px, 180px);
+  }
+}
 .card {
   display: flex;
   flex-direction: column;
@@ -63,10 +70,10 @@
   margin-bottom: 5px;
   padding-left: 10px;
   text-align: left;
-  font-family: "Quicksand", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 25px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
 }
 
 .end {
@@ -249,6 +256,26 @@
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 330px) {
+  .card {
+    width: 200px !important;
+  }
+  .card img {
+    width: 190px;
+    height: 250px;
+  }
+  .card span {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 520px) and (max-width: 630px) {
+  .card {
+    padding: 0 20px !important;
+  }
+}
 footer {
   background-color: #e5f3f6;
   margin-top: 100px;
@@ -266,7 +293,7 @@ footer ul li a:link {
   color: #000 !important;
   text-decoration: none;
   font-family: "Nunito", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 27px;
 }
@@ -379,6 +406,22 @@ footer ul li a:visited {
   height: 60px;
 }
 
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-brand-icon {
+  top: 0 !important;
+  left: 0 !important;
+}
+
+@media screen and (max-width: 339px) {
+  .nav-icon {
+    width: 20px !important;
+    height: 20px !important;
+  }
+}
 @media screen and (max-width: 992px) {
   .nav-link {
     text-align: center;
@@ -395,7 +438,102 @@ footer ul li a:visited {
     margin-left: 0%;
   }
 }
-.img {
-  background-image: url(../assets/Images/cloth.png);
+.cart-image {
+  width: 100.5px;
+  height: 150px;
+}
+
+.modal-content {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  width: 100%;
+  max-width: 1200px !important;
+}
+
+.number {
+  font-size: 20px !important;
+}
+
+.cart-button {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  border: 3px solid;
+  width: 200px;
+  height: 42px;
+}
+
+.red {
+  border: 3px solid #ec0b28;
+  color: #ec0b28;
+}
+
+.blue {
+  border: 3px solid #2f88ff;
+  color: #2f88ff;
+}
+
+.red:hover {
+  background-color: #ec0b28 !important;
+  color: white !important;
+}
+
+.blue:hover {
+  background-color: #2f88ff !important;
+  color: white !important;
+}
+
+.btn-close {
+  box-shadow: none !important;
+}
+
+.add-more {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.add-more a {
+  color: #2f88ff;
+  text-decoration: none;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-footer {
+  border-top: none !important;
+}
+
+.total {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 360px) {
+  .modal-content {
+    font-size: 10px !important;
+  }
+  .cart-image {
+    width: 70px !important;
+    height: 105px !important;
+  }
+}
+@media screen and (max-width: 470px) {
+  .modal-content .productname {
+    transform: translateX(30px);
+  }
+  .modal-content .productname p {
+    overflow-wrap: break-word;
+  }
+  .modal-content .no-of-items {
+    transform: translate(15px, -15px);
+  }
 }
 /*# sourceMappingURL=style.css.map */
